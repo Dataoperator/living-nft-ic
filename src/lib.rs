@@ -1,1 +1,111 @@
-dXNlIGNhbmRpZDo6e0NhbmRpZFR5cGUsIERlY29kZSwgRW5jb2RlfTsKdXNlIGljX3N0YWJsZV9zdHJ1Y3R1cmVzOjptZW1vcnlfbWFuYWdlcjo6e01lbW9yeUlkLCBNZW1vcnlNYW5hZ2VyLCBWaXJ0dWFsTWVtb3J5fTsKdXNlIGljX3N0YWJsZV9zdHJ1Y3R1cmVzOjp7RGVmYXVsdE1lbW9yeUltcGwsIFN0YWJsZUJUcmVlTWFwfTsKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSBzdGQ6OmNlbGw6OlJlZkNlbGw7CgovLyBUeXBlIGFsaWFzZXMKdHlwZSBNZW1vcnkgPSBWaXJ0dWFsTWVtb3J5PERlZmF1bHRNZW1vcnlJbXBsPjsKCi8vIFN0YXRlIG1hbmFnZW1lbnQKdGhyZWFkX2xvY2FsISB7CiAgICBzdGF0aWMgTUVNT1JZX01BTkFHRVI6IFJlZkNlbGw8TWVtb3J5TWFuYWdlcjxEZWZhdWx0TWVtb3J5SW1wbD4+ID0gUmVmQ2VsbDo6bmV3KAogICAgICAgIE1lbW9yeU1hbmFnZXI6OmluaXQoRGVmYXVsdE1lbW9yeUltcGw6OmRlZmF1bHQoKSkKICAgICk7CgogICAgc3RhdGljIE5GVF9TVE9SQUdFOiBSZWZDZWxsPFN0YWJsZUJUcmVlTWFwPFByaW5jaXBhbCwgTGl2aW5nTkZULCBNZW1vcnk+PiA9IFJlZkNlbGw6Om5ldygKICAgICAgICBTdGFibGVCVHJlZU1hcDo6aW5pdCgKICAgICAgICAgICAgTUVNT1JZX01BTkFHRVIud2l0aCh8bXwgbS5ib3Jyb3coKS5nZXQoTWVtb3J5SWQ6Om5ldygwKSkpCiAgICAgICAgKQogICAgKTsKfQoKI1tkZXJpdmUoQ2FuZGlkVHlwZSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSwgQ2xvbmUsIERlYnVnKV0KcHViIHN0cnVjdCBMaXZpbmdORlQgewogICAgcHViIG93bmVyOiBQcmluY2lwYWwsCiAgICBwdWIgbmFtZTogU3RyaW5nLAogICAgcHViIGNyZWF0aW9uX3RpbWU6IHU2NCwKICAgIHB1YiBwZXJzb25hbGl0eTogUGVyc29uYWxpdHksCiAgICBwdWIgbWVtb3JpZXM6IFZlYzxNZW1vcnk+LAogICAgcHViIGludGVyYWN0aW9uX2NvdW50OiB1NjQsCiAgICBwdWIgZ3Jvd3RoX2xldmVsOiB1MzIsCn0KCiNbZGVyaXZlKENhbmRpZFR5cGUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUsIENsb25lLCBEZWJ1ZyldCnB1YiBzdHJ1Y3QgUGVyc29uYWxpdHkgewogICAgcHViIGVtcGF0aHk6IGYzMiwKICAgIHB1YiBjdXJpb3NpdHk6IGYzMiwKICAgIHB1YiByZXNpbGllbmNlOiBmMzIsCiAgICBwdWIgc3ludGhlc2lzOiBmMzIsCn0KCiNbZGVyaXZlKENhbmRpZFR5cGUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUsIENsb25lLCBEZWJ1ZyldCnB1YiBzdHJ1Y3QgTWVtb3J5IHsKICAgIHB1YiB0aW1lc3RhbXA6IHU2NCwKICAgIHB1YiBjb250ZW50OiBTdHJpbmcsCiAgICBwdWIgZW1vdGlvbmFsX2ltcGFjdDogZjMyLAp9CgovLyBDYW5pc3RlciBtZXRob2RzCiNbaWNfY2RrX21hY3Jvczo6dXBkYXRlXQpwdWIgYXN5bmMgZm4gY3JlYXRlX25mdChuYW1lOiBTdHJpbmcpIC0+IFJlc3VsdDxQcmluY2lwYWwsIFN0cmluZz4gewogICAgbGV0IGNhbGxlciA9IGljX2Nkazo6Y2FsbGVyKCk7CiAgICBsZXQgbmZ0ID0gTGl2aW5nTkZUIHsKICAgICAgICBvd25lcjogY2FsbGVyLAogICAgICAgIG5hbWUsCiAgICAgICAgY3JlYXRpb25fdGltZTogaWNfY2RrOjphcGk6OnRpbWUoKSwKICAgICAgICBwZXJzb25hbGl0eTogZ2VuZXJhdGVfaW5pdGlhbF9wZXJzb25hbGl0eSgpLAogICAgICAgIG1lbW9yaWVzOiBWZWM6Om5ldygpLAogICAgICAgIGludGVyYWN0aW9uX2NvdW50OiAwLAogICAgICAgIGdyb3d0aF9sZXZlbDogMSwKICAgIH07CgogICAgbGV0IG5mdF9pZCA9IGljX2Nkazo6aWQoKTsKICAgIE5GVF9TVE9SQUdFLndpdGgofHN0b3JhZ2V8IHsKICAgICAgICBzdG9yYWdlLmJvcnJvd19tdXQoKS5pbnNlcnQobmZ0X2lkLCBuZnQpCiAgICB9KTsKCiAgICBPayhuZnRfaWQpCn0KCiNbaWNfY2RrX21hY3Jvczo6cXVlcnldCnB1YiBmbiBnZXRfbmZ0KGlkOiBQcmluY2lwYWwpIC0+IE9wdGlvbjxMaXZpbmdORlQ+IHsKICAgIE5GVF9TVE9SQUdFLndpdGgofHN0b3JhZ2V8IHsKICAgICAgICBzdG9yYWdlLmJvcnJvdygpLmdldCgmaWQpCiAgICB9KQp9CgovLyBIZWxwZXIgZnVuY3Rpb25zCmZuIGdlbmVyYXRlX2luaXRpYWxfcGVyc29uYWxpdHkoKSAtPiBQZXJzb25hbGl0eSB7CiAgICBQZXJzb25hbGl0eSB7CiAgICAgICAgZW1wYXRoeTogMC41LAogICAgICAgIGN1cmlvc2l0eTogMC43LAogICAgICAgIHJlc2lsaWVuY2U6IDAuNiwKICAgICAgICBzeW50aGVzaXM6IDEuMCwgIC8vIEdlbmVzaXMgdHJhaXQKICAgIH0KfQ==
+use candid::{CandidType, Decode, Encode};
+use ic_stable_structures::memory_manager::{MemoryId, MemoryManager, VirtualMemory};
+use ic_stable_structures::{DefaultMemoryImpl, StableBTreeMap};
+use serde::{Deserialize, Serialize};
+use std::cell::RefCell;
+
+mod personality;
+mod memory;
+mod types;
+mod error;
+
+use personality::Personality;
+use memory::Memory;
+use types::*;
+use error::NftError;
+
+// Type aliases
+type Memory = VirtualMemory<DefaultMemoryImpl>;
+type Result<T> = std::result::Result<T, NftError>;
+
+// State management
+thread_local! {
+    static MEMORY_MANAGER: RefCell<MemoryManager<DefaultMemoryImpl>> = RefCell::new(
+        MemoryManager::init(DefaultMemoryImpl::default())
+    );
+
+    static NFT_STORAGE: RefCell<StableBTreeMap<Principal, LivingNFT, Memory>> = RefCell::new(
+        StableBTreeMap::init(
+            MEMORY_MANAGER.with(|m| m.borrow().get(MemoryId::new(0)))
+        )
+    );
+}
+
+#[derive(CandidType, Serialize, Deserialize, Clone, Debug)]
+pub struct LivingNFT {
+    pub owner: Principal,
+    pub name: String,
+    pub creation_time: u64,
+    pub personality: Personality,
+    pub memories: Vec<Memory>,
+    pub interaction_count: u64,
+    pub growth_level: u32,
+    pub last_interaction: u64,
+}
+
+// Canister methods
+#[ic_cdk_macros::update]
+pub async fn create_nft(name: String) -> Result<Principal> {
+    let caller = ic_cdk::caller();
+    let nft = LivingNFT {
+        owner: caller,
+        name,
+        creation_time: ic_cdk::api::time(),
+        personality: Personality::generate_initial(),
+        memories: Vec::new(),
+        interaction_count: 0,
+        growth_level: 1,
+        last_interaction: ic_cdk::api::time(),
+    };
+
+    let nft_id = ic_cdk::id();
+    NFT_STORAGE.with(|storage| {
+        storage.borrow_mut().insert(nft_id, nft)
+    });
+
+    Ok(nft_id)
+}
+
+#[ic_cdk_macros::query]
+pub fn get_nft(id: Principal) -> Result<LivingNFT> {
+    NFT_STORAGE.with(|storage| {
+        storage.borrow().get(&id)
+            .ok_or(NftError::NotFound)
+    })
+}
+
+#[ic_cdk_macros::update]
+pub async fn interact(id: Principal, input: String) -> Result<InteractionResponse> {
+    let caller = ic_cdk::caller();
+    
+    // Verify ownership
+    let mut nft = get_nft(id)?;
+    if nft.owner != caller {
+        return Err(NftError::NotAuthorized);
+    }
+
+    // Process interaction
+    let response = process_interaction(&mut nft, &input).await?;
+    
+    // Update storage
+    NFT_STORAGE.with(|storage| {
+        storage.borrow_mut().insert(id, nft)
+    });
+
+    Ok(response)
+}
+
+// Helper function for processing interactions
+async fn process_interaction(nft: &mut LivingNFT, input: &str) -> Result<InteractionResponse> {
+    // Update interaction count and time
+    nft.interaction_count += 1;
+    nft.last_interaction = ic_cdk::api::time();
+
+    // TODO: Implement LLM integration
+    // For MVP, return simple response
+    Ok(InteractionResponse {
+        message: format!("Interaction processed! Count: {}", nft.interaction_count),
+        personality_changes: Vec::new(),
+        new_memories: Vec::new(),
+    })
+}
