@@ -1,0 +1,23 @@
+# Rust
+target/
+Cargo.lock
+
+# DFX
+.dfx/
+canister_ids.json
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
