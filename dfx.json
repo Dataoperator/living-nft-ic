@@ -1,0 +1,21 @@
+{
+  "canisters": {
+    "living_nft": {
+      "type": "rust",
+      "package": "living_nft",
+      "candid": "src/living_nft/living_nft.did"
+    },
+    "living_nft_assets": {
+      "type": "assets",
+      "source": ["assets"],
+      "dependencies": ["living_nft"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "version": 1
+}
