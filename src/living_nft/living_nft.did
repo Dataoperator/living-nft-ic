@@ -1,0 +1,40 @@
+type Personality = record {
+    empathy: float32;
+    curiosity: float32;
+    resilience: float32;
+    synthesis: float32;
+};
+
+type Memory = record {
+    timestamp: nat64;
+    content: text;
+    emotional_impact: float32;
+};
+
+type LivingNFT = record {
+    owner: principal;
+    name: text;
+    creation_time: nat64;
+    personality: Personality;
+    memories: vec Memory;
+    interaction_count: nat64;
+    growth_level: nat32;
+    last_interaction: nat64;
+};
+
+type InteractionResponse = record {
+    message: text;
+    personality_changes: vec record {
+        trait_name: text;
+        old_value: float32;
+        new_value: float32;
+        reason: text;
+    };
+    new_memories: vec Memory;
+};
+
+service : {
+    create_nft: (text) -> (variant { Ok: principal; Err: text });
+    get_nft: (principal) -> (variant { Ok: LivingNFT; Err: text });
+    interact: (principal, text) -> (variant { Ok: InteractionResponse; Err: text });
+};
