@@ -3,18 +3,28 @@
     "living_nft": {
       "type": "rust",
       "package": "living_nft",
-      "candid": "src/living_nft/living_nft.did"
+      "candid": "src/living_nft/living_nft.did",
+      "optimize": "cycles"
     },
     "living_nft_assets": {
       "type": "assets",
-      "source": ["assets"],
-      "dependencies": ["living_nft"]
+      "source": ["dist/"],
+      "dependencies": ["living_nft"],
+      "frontend": {
+        "entrypoint": "src/living_nft_assets/src/index.html"
+      }
     }
   },
   "defaults": {
     "build": {
-      "packtool": "",
-      "args": ""
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "ic": {
+      "providers": ["https://ic0.app"],
+      "type": "persistent"
     }
   },
   "version": 1
